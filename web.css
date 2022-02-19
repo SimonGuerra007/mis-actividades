@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: url(https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+} 
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.50);
+}
+
+.text-white {
+    color: white;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
